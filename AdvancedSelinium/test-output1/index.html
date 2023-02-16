@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\pravi\AppData\Local\Temp\testng-eclipse-1264017845\testng-customsuite.xml</span>
+                    <span>C:\Users\pravi\AppData\Local\Temp\testng-eclipse--612003239\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="InterviewPractice.GetwindowsHandles" class="method navigator-link" hash-for-method="seleniumWindowHandle">seleniumWindowHandle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="DataProvider.dataflow" class="method navigator-link" hash-for-method="test(kiran@gmail.com, 123456)">test(kiran@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DataProvider.dataflow" class="method navigator-link" hash-for-method="test(maddy@gmail.com, 1221343)">test(maddy@gmail.com, 1221343)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DataProvider.dataflow" class="method navigator-link" hash-for-method="test(pravin@gmail.com, 1221453)">test(pravin@gmail.com, 1221453)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DataProvider.dataflow" class="method navigator-link" hash-for-method="test(kunal@gmail.com, 122143423)">test(kunal@gmail.com, 122143423)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +137,39 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">InterviewPractice.GetwindowsHandles</span>
+              <span class="class-name">DataProvider.dataflow</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="seleniumWindowHandle">
-                  </a> <!-- seleniumWindowHandle -->
-                  <span class="method-name">seleniumWindowHandle</span>
+                  <a name="test(kiran@gmail.com, 123456)">
+                  </a> <!-- test(kiran@gmail.com, 123456) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(kiran@gmail.com, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(maddy@gmail.com, 1221343)">
+                  </a> <!-- test(maddy@gmail.com, 1221343) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(maddy@gmail.com, 1221343)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(pravin@gmail.com, 1221453)">
+                  </a> <!-- test(pravin@gmail.com, 1221453) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(pravin@gmail.com, 1221453)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(kunal@gmail.com, 122143423)">
+                  </a> <!-- test(kunal@gmail.com, 122143423) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(kunal@gmail.com, 122143423)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +177,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\pravi\AppData\Local\Temp\testng-eclipse-1264017845\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\pravi\AppData\Local\Temp\testng-eclipse--612003239\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +186,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;InterviewPractice.GetwindowsHandles&quot;/&gt;
+      &lt;class name=&quot;DataProvider.dataflow&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,16 +226,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'seleniumWindowHandle')
-data.setCell(0, 2, 'InterviewPractice.GetwindowsHandles')
-data.setCell(0, 3, 8733);
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'DataProvider.dataflow')
+data.setCell(0, 3, 12204);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'DataProvider.dataflow')
+data.setCell(1, 3, 7006);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'DataProvider.dataflow')
+data.setCell(2, 3, 5947);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'DataProvider.dataflow')
+data.setCell(3, 3, 5892);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -221,10 +273,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">InterviewPractice.GetwindowsHandles</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">DataProvider.dataflow</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">seleniumWindowHandle</span>
+                <span class="method-name">test(pravin@gmail.com, 1221453)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(kunal@gmail.com, 122143423)</span>
+                <span class="method-start">7011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(maddy@gmail.com, 1221343)</span>
+                <span class="method-start">12905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(kiran@gmail.com, 123456)</span>
+                <span class="method-start">18854 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
